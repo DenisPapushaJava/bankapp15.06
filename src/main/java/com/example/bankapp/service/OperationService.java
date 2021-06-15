@@ -44,6 +44,6 @@ public class OperationService {
     public List<Operation> getHistory(Long id, Integer count) {
         User user = userService.getUserById(id);
         operationRepository.save(new Operation(user, Category.HISTORY));
-        return operationRepository.findAllByUser(user);
+        return operationRepository.findAllByUserFrom(user);
     }
 }

@@ -10,5 +10,5 @@ import java.util.List;
 
 public interface OperationRepository extends JpaRepository<Operation, Long> {
   //  @Query(value = "SELECT * FROM Operation ORDER BY date DESC LIMIT :count", nativeQuery = true)
-    List<Operation> findAllByUser(User user);
+    List<Operation> findAllByUserFrom(User user);
 }
