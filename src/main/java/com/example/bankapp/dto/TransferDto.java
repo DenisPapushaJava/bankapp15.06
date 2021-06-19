@@ -1,9 +1,9 @@
 package com.example.bankapp.dto;
 
 public class TransferDto {
-   private Long fromId;
-   private Long toId;
-   private Double cash;
+    private Long fromId;
+    private Long toId;
+    private Double cash;
 
     public Long getFromId() {
         return fromId;

@@ -90,5 +90,6 @@ public class Operation {
     private Double cash;
     private LocalDateTime date;
     @Enumerated(value = EnumType.STRING)
+    @OneToOne
     private Category category;
 }

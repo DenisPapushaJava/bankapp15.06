@@ -3,7 +3,6 @@ package com.example.bankapp.controller;
 import com.example.bankapp.dto.TransferDto;
 import com.example.bankapp.models.Operation;
 import com.example.bankapp.service.OperationService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

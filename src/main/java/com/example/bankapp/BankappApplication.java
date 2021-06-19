@@ -10,4 +10,5 @@ public class BankappApplication {
 		SpringApplication.run(BankappApplication.class, args);
 	}
 
+
 }

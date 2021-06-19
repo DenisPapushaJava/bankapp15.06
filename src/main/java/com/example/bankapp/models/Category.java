@@ -19,5 +19,6 @@ public enum Category {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Basic
     private Long id;
 }
